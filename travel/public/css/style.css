@@ -1494,6 +1494,17 @@
      background: #ffff00 none repeat scroll 0 0;
      color: #283754;
 }
+
+.trusted-partners {
+     display: flex;
+     justify-content: center; /* Center the images horizontally */
+     gap: 20px; /* Add space between each image */
+ }
+ 
+ .trusted-partners img {
+     max-width: 100px; /* Adjust the maximum width as needed */
+     height: auto; /* Maintain aspect ratio */
+ }
 /*home version two */
 /*===================================================== 16.home version 2 Slider area section css goes here =======================================================*/
  .index-2 .header-top-area {
